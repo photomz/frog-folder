@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+   "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.markus.frogfolder</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/env</string>
+    <string>python3</string>
+    <string>/Users/markusz/Code/frog-folder/update_symlink.py</string>
+  </array>
+
+  <key>StartInterval</key>
+  <integer>60</integer> <!-- run every 60 seconds -->
+
+  <key>RunAtLoad</key>
+  <true/>
+
+  <key>StandardOutPath</key>
+  <string>/tmp/frogfolder.out</string>
+
+  <key>StandardErrorPath</key>
+  <string>/tmp/frogfolder.err</string>
+</dict>
+</plist>
